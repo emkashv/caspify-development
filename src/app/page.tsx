@@ -121,7 +121,7 @@ export default function Home() {
               <Zap className="mr-2 h-3 w-3" />
               Our Services
             </Badge>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">What We Do</h2>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">What We Do</h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Full-cycle development of modern web applications
             </p>
@@ -185,7 +185,7 @@ export default function Home() {
             <Badge className="mb-4" variant="secondary">
               Transparent Pricing
             </Badge>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Choose Your Plan</h2>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">Choose Your Plan</h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Flexible packages for projects of any scale
             </p>
@@ -361,9 +361,9 @@ export default function Home() {
       <section className="py-20 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-blue-500/10 to-transparent" />
         <div className="container mx-auto px-4 text-center relative z-10">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">
             Ready to Start Your Project?
-          </h2>
+          </h1>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
             Contact us today and get a free consultation
           </p>

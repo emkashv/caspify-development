@@ -196,7 +196,7 @@ export default function Home() {
             <Card className="border-2 hover:border-primary/50 transition-all hover:shadow-2xl hover:shadow-primary/20">
               <CardHeader>
                 <Badge className="w-fit mb-2" variant="secondary">Starter</Badge>
-                <CardTitle className="text-3xl">$2,999</CardTitle>
+                <CardTitle className="text-3xl">$999</CardTitle>
                 <CardDescription className="text-base">Perfect for getting started</CardDescription>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -233,7 +233,7 @@ export default function Home() {
               </div>
               <CardHeader>
                 <Badge className="w-fit mb-2">Professional</Badge>
-                <CardTitle className="text-3xl">$7,999</CardTitle>
+                <CardTitle className="text-3xl">$4,999</CardTitle>
                 <CardDescription className="text-base">For growing businesses</CardDescription>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -271,7 +271,7 @@ export default function Home() {
             <Card className="border-2 hover:border-primary/50 transition-all hover:shadow-2xl hover:shadow-primary/20">
               <CardHeader>
                 <Badge className="w-fit mb-2" variant="secondary">Enterprise</Badge>
-                <CardTitle className="text-3xl">$15,999+</CardTitle>
+                <CardTitle className="text-3xl">$8,999+</CardTitle>
                 <CardDescription className="text-base">Maximum capabilities</CardDescription>
               </CardHeader>
               <CardContent className="space-y-6">

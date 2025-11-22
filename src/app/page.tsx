@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { MissionText } from "@/components/MissionText";
-import { AIChatWidget } from "@/components/AIChatWidget";
 import { Code2, Sparkles, Rocket, Check, ArrowRight, Zap, Globe, Layers } from "lucide-react";
 import { useEffect, useRef } from "react";
 
@@ -391,9 +390,6 @@ export default function Home() {
           </div>
         </div>
       </footer>
-
-      {/* AI Chat Widget */}
-      <AIChatWidget />
     </div>
   );
 }

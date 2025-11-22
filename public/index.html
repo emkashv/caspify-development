@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caspify - Full-Stack Web Development</title>
+    <meta name="description" content="Создаем современные веб-сайты и приложения для вашего бизнеса">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <div class="logo-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="16 18 22 12 16 6"></polyline>
+                        <polyline points="8 6 2 12 8 18"></polyline>
+                    </svg>
+                </div>
+                <h1 class="logo-text">Caspify</h1>
+            </div>
+            <nav class="nav">
+                <a href="#products" class="nav-link">Products</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="#mission" class="nav-link">About</a>
+                <a href="#support" class="nav-link">Support</a>
+                <button class="btn btn-primary btn-sm">
+                    Contact Us
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-radial"></div>
+        <div class="container hero-content">
+            <div class="badge badge-secondary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path>
+                </svg>
+                Full-Stack Development
+            </div>
+            
+            <h1 class="hero-title">
+                Building Websites<br>
+                <span class="hero-title-gradient">of the Future</span>
+            </h1>
+            
+            <p class="hero-subtitle">
+                Modern full-stack solutions for your business. From idea to launch.
+            </p>
+            
+            <div class="hero-buttons">
+                <button class="btn btn-primary btn-lg">
+                    Start a Project
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14 21 3"></path>
+                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    </svg>
+                </button>
+                <button class="btn btn-outline btn-lg">View Our Work</button>
+            </div>
+        </div>
+
+        <div class="floating-circle floating-circle-1"></div>
+        <div class="floating-circle floating-circle-2"></div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="services" class="section features-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge badge-secondary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                    </svg>
+                    Our Services
+                </div>
+                <h1 class="section-title">What We Do</h1>
+                <p class="section-subtitle">
+                    Full-cycle development of modern web applications
+                </p>
+            </div>
+
+            <div class="features-grid">
+                <div class="card feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                        </svg>
+                    </div>
+                    <h2 class="card-title">Frontend</h2>
+                    <p class="card-description">Modern interfaces with React, Next.js, and TypeScript</p>
+                </div>
+
+                <div class="card feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="3" y1="9" x2="21" y2="9"></line>
+                            <line x1="9" y1="21" x2="9" y2="9"></line>
+                        </svg>
+                    </div>
+                    <h2 class="card-title">Backend</h2>
+                    <p class="card-description">Scalable servers with Node.js, APIs, and databases</p>
+                </div>
+
+                <div class="card feature-card">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M15 3h6v6"></path>
+                            <path d="M10 14 21 3"></path>
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                        </svg>
+                    </div>
+                    <h2 class="card-title">Full-Stack</h2>
+                    <p class="card-description">Complete solutions from design to deployment</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section id="mission" class="section mission-section">
+        <div class="mission-bg"></div>
+        <div class="container section-header">
+            <div class="badge badge-secondary">Our Mission</div>
+            <p id="mission-text" class="mission-text">
+                Наша миссия - создавать инновационные веб-решения, которые помогают бизнесу расти и развиваться в цифровую эпоху. Мы объединяем современные технологии с креативным дизайном для создания продуктов мирового класса.
+            </p>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="section">
+        <div class="container">
+            <div class="section-header">
+                <div class="badge badge-secondary">Transparent Pricing</div>
+                <h1 class="section-title">Choose Your Plan</h1>
+                <p class="section-subtitle">
+                    Flexible packages for projects of any scale
+                </p>
+            </div>
+
+            <div class="pricing-grid">
+                <!-- Starter Plan -->
+                <div class="card pricing-card">
+                    <div class="badge badge-secondary">Starter</div>
+                    <div class="pricing-price">$999</div>
+                    <p class="pricing-description">Perfect for getting started</p>
+                    
+                    <ul class="pricing-features">
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Landing Page design</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Responsive layout</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>SEO optimization</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Contact form</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>2 weeks development</span>
+                        </li>
+                    </ul>
+                    <button class="btn btn-primary btn-lg btn-full">Choose Plan</button>
+                </div>
+
+                <!-- Professional Plan -->
+                <div class="card pricing-card pricing-card-popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="badge badge-primary">Professional</div>
+                    <div class="pricing-price">$4,999</div>
+                    <p class="pricing-description">For growing businesses</p>
+                    
+                    <ul class="pricing-features">
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Multi-page website</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>CMS integration</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Custom Backend API</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Database</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Authentication</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>4-6 weeks development</span>
+                        </li>
+                    </ul>
+                    <button class="btn btn-primary btn-lg btn-full">Choose Plan</button>
+                </div>
+
+                <!-- Enterprise Plan -->
+                <div class="card pricing-card">
+                    <div class="badge badge-secondary">Enterprise</div>
+                    <div class="pricing-price">$8,999+</div>
+                    <p class="pricing-description">Maximum capabilities</p>
+                    
+                    <ul class="pricing-features">
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Full-Stack application</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Microservices architecture</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Real-time features</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>API integrations</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>DevOps & CI/CD</span>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>8+ weeks development</span>
+                        </li>
+                    </ul>
+                    <button class="btn btn-primary btn-lg btn-full">Discuss Project</button>
+                </div>
+            </div>
+
+            <!-- Additional Features -->
+            <div id="support" class="additional-services">
+                <div class="card">
+                    <h2 class="card-title-large">Additional Services</h2>
+                    
+                    <div class="services-grid">
+                        <div class="service-item">
+                            <h4 class="service-title">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Technical Support
+                            </h4>
+                            <p class="service-description">
+                                From $499/month - updates, bug fixes, consultations
+                            </p>
+                        </div>
+                        <div class="service-item">
+                            <h4 class="service-title">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Hosting & Domain
+                            </h4>
+                            <p class="service-description">
+                                From $99/month - infrastructure setup and management
+                            </p>
+                        </div>
+                        <div class="service-item">
+                            <h4 class="service-title">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                SEO Promotion
+                            </h4>
+                            <p class="service-description">
+                                From $799/month - optimization and traffic growth
+                            </p>
+                        </div>
+                        <div class="service-item">
+                            <h4 class="service-title">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                Content Management
+                            </h4>
+                            <p class="service-description">
+                                From $399/month - content and material updates
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta-section">
+        <div class="cta-bg"></div>
+        <div class="container section-header">
+            <h1 class="section-title">Ready to Start Your Project?</h1>
+            <p class="section-subtitle">
+                Contact us today and get a free consultation
+            </p>
+            <button class="btn btn-primary btn-lg">
+                Contact Us
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+            </button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="logo">
+                <div class="logo-icon logo-icon-sm">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="16 18 22 12 16 6"></polyline>
+                        <polyline points="8 6 2 12 8 18"></polyline>
+                    </svg>
+                </div>
+                <span class="logo-text">Caspify</span>
+            </div>
+            <p class="footer-text">© 2024 Caspify. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
